@@ -23,7 +23,7 @@ img {
   --header-height: 4.5rem;
 
   /* colors */
-  --hue: 149;
+  --hue: 360;
   /* HSL color mode */
   --base-color: hsl(var(--hue) 36% 57%);
   --base-color-second: hsl(var(--hue) 65% 88%);
@@ -403,6 +403,9 @@ nav.show div.icon-close {
   position: absolute;
   top: -0.9rem;
   left: -1.875rem;
+  color: var(--base-color);
+}
+#testimonials blockquote p strong {
   color: var(--base-color);
 }
 
